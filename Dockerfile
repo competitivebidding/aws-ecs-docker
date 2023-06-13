@@ -1,6 +1,6 @@
 FROM node:20
 WORKDIR /app
 COPY . .
-RUN yarn install
+RUN npm install
 CMD ["node", "index.js"]
 EXPOSE 3000
